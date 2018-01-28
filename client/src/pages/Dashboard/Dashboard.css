@@ -1,0 +1,10 @@
+.dashboard{
+	background-color: #ece6d8!important; 
+	min-height: 77vh;
+	border: 3px solid #2a2a4a
+}
+
+.input-group-btn .search{
+	background-color: #2a2a4a;
+	color:#ece6d8!important;
+}

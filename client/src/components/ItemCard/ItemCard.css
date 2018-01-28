@@ -1,0 +1,54 @@
+.card {
+	background-color: #fff;
+	border-radius: 2px;
+	width: 30%;
+	height: 200px;
+	margin: 1%;
+	position: relative;
+	box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+	text-align: left;
+	float: left;
+	padding: 2px;
+	position: relative
+}
+
+.cardImg{
+	max-width: 80%;
+	max-height: 60%;
+	margin: 0 auto
+}
+
+.card-title{
+	font-size: 1em
+}
+
+.listItem{
+	width: 90%;
+	height: 50px;
+	
+}
+
+.listItem .cardImg{
+	float: left;
+	max-width: 20%;
+	height: 100%!important;
+	margin: 0;
+	
+}
+.listItem .card-title{
+	float: left;
+	
+	
+	
+}
+.card-block .add{
+	font-size: 1em;
+	font-weight: 600;
+	padding: 3%;
+	position: absolute;
+	bottom: 5%;
+	right: 3%;
+	cursor: pointer;
+	background-color: #eb6864
+	
+}

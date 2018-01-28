@@ -1,0 +1,24 @@
+
+.navbar-brand{
+	color: #2a2a4a!important;
+	font-family: 'Aladin', cursive;
+	font-size: 2.5em;
+	
+}
+
+.navbar-nav { 
+	flex-direction: row;
+
+}
+.navbar-header{
+	float: left;
+
+}
+
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0
+}
+.navbar-collapse{
+	flex-basis: 50px;
+}

@@ -1,0 +1,37 @@
+.home{
+	height:80vh;
+	background-color: rgba(237,86,86,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: -100px;
+	border: 3px solid #fff
+
+}
+.home ::after{
+	height:80vh;
+	background-image: url(https://cdn.dribbble.com/users/819878/screenshots/3154142/ribbon_-_loop_-_001.gif);
+	background-position: center;
+	opacity: .1;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+
+}
+
+.homeBtn{
+	background-color: #ece6d8;
+	border: 2px solid #2a2a4a;
+	color: #2a2a4a;
+}
+
+
+.logo{
+	padding-top: 1%;
+	width: 50%;
+	display: block;
+	margin-left: 23%;
+	
+}

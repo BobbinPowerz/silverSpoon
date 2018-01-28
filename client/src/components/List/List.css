@@ -1,0 +1,50 @@
+.list-overflow-container {
+	max-height: 545px;
+	border: 1px #DDDDDD solid;
+	border-radius: 4px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-bottom: 8px
+}
+
+.list-overflow-container ul {
+	margin: 0;
+}
+
+.list-overflow-container li {
+	border-radius: 0px;
+	border-left: none;
+	border-right: none;
+	height: 60px;
+}
+
+.list-overflow-container li * {
+	cursor: pointer;
+	padding: 0 ;
+}
+.title{
+	padding-top: 30px;
+	float: left
+}
+.list-overflow-container li a {
+
+	color: #2A878C;
+}
+
+.list-overflow-container li img {
+	width: 10%;
+	height: auto;
+	float: left;
+	padding: 1%;
+}
+
+.list-overflow-container li:first-child {
+	border-top: none;
+}
+
+.list-overflow-container li:last-child {
+	border-bottom: none;
+}
+.crossed{
+	text-decoration: line-through!important;
+}
